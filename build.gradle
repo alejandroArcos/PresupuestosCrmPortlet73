@@ -1,0 +1,9 @@
+dependencies {
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+
+	cssBuilder group: "com.liferay", name: "com.liferay.css.builder", version: "3.0.2"
+	
+	compileOnly project(":modules:CRMServiceBuilder73:CRMServiceBuilder73-api")	
+	compileOnly project(":modules:CrmServices73")
+	compileOnly project(":modules:CotizadorModularUtilities73")
+}
